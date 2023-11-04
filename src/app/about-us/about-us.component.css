@@ -1,3 +1,47 @@
-body{
-    color: #ffff;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+body {
+    padding: 9vw;
+}
+.ourMission  .heading h1{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 180px;
+    text-align: center;
+    
+}
+.ourMission p{
+    font-family: 'Poppins','Montserrat', sans-serif;
+    font-size: 12px;
+    line-height: 1.5vw;
+    color: #BEBFB5;
+    text-align: left;
+}
+#secondRow{
+    margin-top: 9vw;
+}
+.visionHeading h1{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 180px;
+    text-align: center;
+}
+.ourVisionStatement p{
+    font-family: 'Poppins','Montserrat', sans-serif;
+    font-size: 12px;
+    line-height: 1.5vw;
+    color: #BEBFB5;
+    text-align: right;
+}
+.valuesHeading h1{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 180px;
+    text-align: center;
+}
+.valuesParagraphs{
+    font-family: 'Poppins','Montserrat', sans-serif;
+    font-size: 12px;
+    line-height: 1.5vw;
+    color: #BEBFB5;
+    text-align: left;
 }
