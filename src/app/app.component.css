@@ -52,7 +52,7 @@ body{
     color: #e9e6e6;
     font-size: 63px;
     font-weight: 600;
-    margin-right: 3vw;
+    margin-right: 2vw;
     text-align: right;
     margin-bottom: 1vw;
     margin-top: 2vw;
@@ -63,7 +63,7 @@ body{
     font-size: 12px;    
     text-align: right;
     margin-right: 3vw;
-    margin-left: 3vw;
+    margin-left: 4vw;
     margin-bottom: 1vw;
 }
 .exploreButton button{
