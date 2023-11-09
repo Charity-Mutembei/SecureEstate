@@ -45,3 +45,11 @@ body {
     color: #BEBFB5;
     text-align: left;
 }
+.nextPartButton{
+    float: right;
+    font-family: 'Poppins','Montserrat', sans-serif;
+    margin-top: -6vw;
+}
+.weStrikeAtDawn{
+    margin-top: 3vw;
+}

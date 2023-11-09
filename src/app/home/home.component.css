@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+body{
+    background-image: url("../../assets/forest.jpg");
+    height: 100vh;
+    width: 100vw;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    padding: 4vw;
+}
+.content-on-top{
+    background: rgba(18, 18, 18, 0.668);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 9px );
+    -webkit-backdrop-filter: blur( 5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 2vw;
+}
+.name-of-site h1{
+    font-weight: 600;
+    font-size: 3cm;
+    color: #e1dbd7d6;
+}
+#information p{
+    color: #ffff;
+    font-weight: 400;
+}
+.navbar-brand h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    margin-right: 12vw;
+    font-size: 48px;
+    color: #ffff;
+}
+.navbar-nav {
+    font-family: 'Montserrat', sans-serif;
+}
+.nav-link {
+    margin-left: 6vw;
+    color: #e9e6e6;
+    font-size: 12px;
+}
+.underTheNavbar {
+    margin-top: 1vw;
+}
+#imageLogo{
+    margin-top: -4%;
+}
+.introSection h1{
+    font-family: 'Bebas Neue', sans-serif;
+    color: #e9e6e6;
+    font-size: 63px;
+    font-weight: 600;
+    margin-right: 2vw;
+    text-align: right;
+    margin-bottom: 1vw;
+    margin-top: 2vw;
+}
+.introParagraph P{
+    font-family: 'Montserrat', sans-serif;
+    color: #ffff;
+    font-size: 12px;    
+    text-align: right;
+    margin-right: 3vw;
+    margin-left: 4vw;
+    margin-bottom: 1vw;
+}
+.exploreButton button{
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    width: 12vw;
+    height: 3vw;
+    border-radius: .5vw;
+    color: #e9e6e6;
+    margin-left: 21vw;
+}
