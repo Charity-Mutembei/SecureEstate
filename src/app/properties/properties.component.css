@@ -1,6 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
 
-body{
+propertyImages{
     color: #ffff;
+    padding: 3vw;
+    font-family: 'Poppins', sans-serif;
+}
+.content-on-top{
+    background: rgba(18, 18, 18, 0.668);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 9px );
+    -webkit-backdrop-filter: blur( 5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 2vw;
+}
+.name-of-site h1{
+    font-weight: 600;
+    font-size: 3cm;
+    color: #e1dbd7d6;
+}
+#information p{
+    color: #ffff;
+    font-weight: 400;
+}
+.navbar-brand h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    margin-right: 12vw;
+    font-size: 48px;
+    color: #ffff;
+}
+.navbar-nav {
+    font-family: 'Montserrat', sans-serif;
+}
+.nav-link {
+    margin-left: 6vw;
+    color: #e9e6e6;
+    font-size: 12px;
 }
