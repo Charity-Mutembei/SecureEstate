@@ -12,6 +12,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { PropertiesComponent } from './properties/properties.component';
 import { ZillowService } from './zillow.service';
 import { AgentsComponent } from './agents/agents.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { AgentsComponent } from './agents/agents.component';
     HttpClientModule,
     BrowserModule,
     AppRoutingModule,
+    ReactiveFormsModule,
     RouterModule.forRoot([
       {path: '', component: HomeComponent},
       {path: 'aboutUsComponent', component: AboutUSComponent},

@@ -6,18 +6,26 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class ZillowService {
+  url = 'https://securestate-6cd6372a6cab.herokuapp.com/posts/create';
+  authToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo0LCJleHBpcmUiOiIyMDIzLTExLTE2IDE0LTMwLTI3In0.QxBVN8YmYtYTQoCv7fTAWj2NpjSIqLFjWVmdXdj-dsI';
 
   constructor(private http: HttpClient) { }
-  fetchData(): Observable<any> {
-    const options = {
-      params: new HttpParams().set('property_id', '4951372754'),
-      headers: new HttpHeaders(
-      {
-        'X-RapidAPI-Key': '407dadc3cemsh28a3d543c05888fp1a5acbjsnb56a1f4f75cd',
-        'X-RapidAPI-Host': 'us-real-estate.p.rapidapi.com'
-      })
-    };
 
-    return this.http.get('https://us-real-estate.p.rapidapi.com/v3/property-detail', options);
+  setAuthToken(token: string): void {
+    this.authToken = token;
   }
+
+  savePostData(data: any): Observable<any> {
+    if (!this.authToken) {
+      console.error('401 dumbass');
+    }
+
+    const headers = new HttpHeaders({
+      'Content-Type': 'application/json',
+      'Authorization': `Bearer ${this.authToken}`
+    });
+
+    return this.http.post(this.url, data, { headers });
+  }
+  
 }

@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;200;&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;200;&display=swap');
 
 propertyImages{
     color: #ffff;
@@ -38,4 +38,23 @@ propertyImages{
     margin-left: 6vw;
     color: #e9e6e6;
     font-size: 12px;
+}
+
+.addingPropertiesInForm  h2{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 29px;
+    color: #ffff;
+    text-align: center;
+}
+.addingPropertiesInForm form {
+    display: grid;
+    width: 30vw;
+    color: #ffff;
+    margin-left: 35%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+
+}
+#pdescription {
+    height: 9vw;
 }
