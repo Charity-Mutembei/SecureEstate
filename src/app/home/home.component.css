@@ -75,3 +75,37 @@ body{
     color: #e9e6e6;
     margin-left: 21vw;
 }
+@media (max-width: 800px) {
+    #imageLogo{
+        display: none;
+    }
+    #remainder{
+        width: 90%;
+    }
+    #sidething{
+        background-color: #ffff;
+    }
+    .exploreButton button{
+        width: 20vw;
+        height: 6vw;
+        border-radius: 1.5vw;
+    }
+}
+@media (max-width: 500px) {
+    #imageLogo{
+        display: none;
+    }
+    #remainder{
+        width: 90%;
+        font-size: 53px;
+    }
+    #sidething{
+        background-color: #ffff;
+    }
+    .exploreButton button{
+        width: 40vw;
+        height: 10vw;
+        border-radius: 1.5vw;
+        margin-top: -10%;
+    }
+}
